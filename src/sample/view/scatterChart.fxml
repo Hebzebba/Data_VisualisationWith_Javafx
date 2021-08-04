@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="553.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Scatterchart">
+   <children>
+      <ScatterChart fx:id="scatter_chat" layoutX="2.0" layoutY="1.0" prefHeight="553.0" prefWidth="749.0">
+        <xAxis>
+          <CategoryAxis fx:id="scatter_x" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="scatter_y" side="LEFT" />
+        </yAxis>
+      </ScatterChart>
+   </children>
+</AnchorPane>

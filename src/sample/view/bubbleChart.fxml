@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BubbleChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="601.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Bubblechart">
+   <children>
+      <BubbleChart fx:id="bubble_chart" layoutX="-2.0" layoutY="-3.0" prefHeight="601.0" prefWidth="748.0">
+        <xAxis>
+          <NumberAxis fx:id="bubble_x" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="bubble_y" side="LEFT" />
+        </yAxis>
+      </BubbleChart>
+   </children>
+</AnchorPane>
