@@ -10,12 +10,10 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        double width = Screen.getPrimary().getBounds().getWidth();
-        double height = Screen.getPrimary().getBounds().getHeight();
+        Parent root = FXMLLoader.load(getClass().getResource("view/baseContainer.fxml"));
         primaryStage.setTitle("Data Visualization");
         primaryStage.setAlwaysOnTop(true);
-        primaryStage.setScene(new Scene(root, width, height-50));
+        primaryStage.setScene(new Scene(root, 960, 607));
         primaryStage.show();
     }
 
